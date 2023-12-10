@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="#" class="container">
+        <div class="container__header header__date">Данные получателя</div>
+        <div class="container__input input__box">
+          <div class="container__input input__date">
+            <input
+              type="text"
+              name="second name"
+              placeholder="Фамилия"
+              class="container__input input-name"
+            />
+          </div>
+          <div class="container__input input__date">
+            <input
+              type="text"
+              name="first name"
+              placeholder="Имя"
+              class="container__input input-name"
+            />
+          </div>
+          <div class="container__input input__date">
+            <input
+              type="text"
+              name="middle name"
+              placeholder="Отчество"
+              class="container__input input-name"
+            />
+          </div>
+          <div class="container__input input__date">
+            <input
+              type="tel"
+              name="telphone number"
+              class="container__input input-tel"
+              placeholder="Номер телефона"
+            />
+          </div>
+        </div>
+        <div class="container__details">
+          По этому номеру телефона мы с вяжемся с вами для подтверждения заказа
+        </div>
+        <div class="container__input input__email">
+          <input
+            type="email"
+            name="email"
+            class="container__input input-email-box"
+            placeholder="E-mail"
+          />
+          <p class="container__details details_margin">
+            На эту почту вам придет письмо с составом заказа, а так же
+            трэк-номер для его отслеживания
+          </p>
+        </div>
+
+        <div class="checkbox">
+          <label for="checkbox" class="checkbox-label"
+            ><input
+              type="checkbox"
+              id="checkbox"
+              class="custom-checkbox"
+              name="subcription"
+              value="yes"
+            />
+            <span class="check-style"></span>
+            <span>Подписаться на рассылку новинок и акций</span>
+          </label>
+        </div>
+        <div class="container__header header__payment">Способ оплаты</div>
+        <div class="container__input input__payment">
+          <div class="input__payment-cash">
+            <label for="cash" class="input__radio-label"
+              ><input
+                type="radio"
+                name="payment"
+                value="cash"
+                id="cash"
+                class="input__radio"
+              /><span class="radio-style"></span
+              ><span>Оплата при получении наличными или картой</span>
+            </label>
+          </div>
+          <div class="input__payment-card">
+            <label for="card" class="input__radio-label"
+              ><input
+                type="radio"
+                name="payment"
+                value="card"
+                id="card"
+                class="input__radio"
+              />
+              <span class="radio-style"></span
+              ><span>Оплата банковской картой онлайн</span>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
