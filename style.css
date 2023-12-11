@@ -193,7 +193,7 @@ h5 {
 }
 
 .check-style {
-  background-image: url("../img/box.svg");
+  background-image: url("./img/box.svg");
   width: 30px;
   height: 30px;
   position: absolute;
@@ -208,7 +208,7 @@ h5 {
 
 .custom-checkbox:checked + .check-style::before {
   content: "";
-  background-image: url("../img/check.svg");
+  background-image: url("./img/check.svg");
   position: absolute;
   width: 12px;
   height: 10px;
@@ -221,6 +221,7 @@ h5 {
 
 .custom-checkbox:hover + .check-style {
   background-color: #e8e8e8;
+  border-radius: 6px;
 }
 
 .input__payment {
@@ -244,7 +245,7 @@ h5 {
 }
 .radio-style {
   content: "";
-  background-image: url("../img/radio_box.svg");
+  background-image: url("./img/radio_box.svg");
   width: 31px;
   height: 31px;
   position: absolute;
@@ -253,7 +254,7 @@ h5 {
 
 .input__radio:checked + .radio-style::before {
   content: "";
-  background-image: url("../img/radio_check.svg");
+  background-image: url("./img/radio_check.svg");
   width: 19px;
   height: 19px;
   position: absolute;
